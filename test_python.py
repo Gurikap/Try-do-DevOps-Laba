@@ -3,9 +3,9 @@ from main import summ, diff
 
 class TestMain(unittest.TestCase):
   def test_s1(self):
-    self.assertEqual(summ(1, 4), 4)
+    self.assertEqual(summ(1, 3), 4)
   def test_s2(self):
-    self.assertEqual(summ(10, 110), 110)
+    self.assertEqual(summ(10, 100), 110)
   def test_s3(self):
     self.assertEqual(summ(13, 7), 20)
   def test_d1(self):
